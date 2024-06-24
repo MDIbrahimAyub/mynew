@@ -1,0 +1,1121 @@
+
+<!DOCTYPE html><html lang="en" class=""><head>  
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/32x32.png">
+    <meta name="theme-color" content="#f84c26">
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Home | REJOUICE®</title>
+    <style id="critical-css">
+        
+        :root {
+
+            --minSize:    320;
+            --maxSize:    1440;
+        
+            /* Media Queries*/
+            --media-m:     screen and (max-width: 500px) and (orientation: portrait);
+            --media-touch: (hover: none) ;
+        
+            --media-landscape: screen and (orientation: landscape);
+        
+            /* FontFamily */
+            --alias-main:   'NB International Pro Book', sans-serif;
+            --alias-alt:   'Rejouice Headline', sans-serif;
+        
+            /* Easings */
+            --alias-easeOut: cubic-bezier(0.430, 0.195, 0.020, 1.000);
+            --alias-easeIn: cubic-bezier(0.485, 0.050, 0.445, 0.855);
+            --alias-easeOutQuint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+            --alias-easeOut2: cubic-bezier(0.9, 0.1, 0.15, 1.05);
+            --alias-easeOut3: cubic-bezier(0.630, 0.195, 0.010, 1.000);
+            --alias-easeOutSlow: cubic-bezier(.43,.195,.02,1);
+            --alias-easeInOutQuint: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+            --alias-easeInOutQuart: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            --alias-easeInOutCubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+            --alias-easeOutCubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        
+            /* Units*/
+            --unit-fx:  calc( var(--vw) / 1440 );
+            --unit-fy:  calc( var(--vh) / 996 );
+            
+            --vhfix:     100vh;
+            --vhfixonce: 100vh;
+            --vw:        100vw;
+            --vh:        100vh;
+            --unit-vw:         calc( var( --vw ) / 100 );
+            --unit-vhfix:      calc( var( --vhfix ) / 100 );
+            --unit-vhfixonce:  calc( var( --vhfixonce ) / 100 );
+        
+            --alias-beforeAfterW: calc(  100% - 75 * var(--unit-fx));
+            --alias-iBeforeAfterW: calc(-100% + 75 * var(--unit-fx));
+        
+            --alias-blur20: blur(20px)
+        }
+        
+        @media screen and (max-width: 600px) and (orientation: portrait) {
+            :root {
+                --unit-fx:  calc( var(--vw) / 375 );
+                --unit-fy:  calc( var(--vh) / 726 );
+            }
+        }
+
+
+        .before\:p\-t\:57\%::before { padding-top: 57%  ; } 
+        .p-b\:24fx { padding-bottom: calc( 24 * var(--unit-fx) )  ;  } 
+        
+       
+
+    
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="charset" content="UTF-8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="description" content="REJOUICE® is a global branding and digital design agency, creating products, services, and eCommerce experiences that amplify company valuation through digital innovation"><meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"><meta name="robots" content="max-snippet:-1  max-image-preview:large  max-video-preview:-1"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://rejouice.com/assets/images/og-image.jpg"><meta name="twitter:description" content="REJOUICE® is a global branding and digital design agency, creating products, services, and eCommerce experiences that amplify company valuation through digital innovation"><meta name="twitter:title" content="REJOUICE® | The Venture Agency"><meta property="og:title" content="REJOUICE® | The Venture Agency"><meta property="og:url" content="https://rejouice.com"><meta property="og:image" content="https://rejouice.com/assets/images/og-image.jpg"><meta property="og:description" content="REJOUICE® is a global branding and digital design agency, creating products, services, and eCommerce experiences that amplify company valuation through digital innovation"><meta property="og:image:height" content="630"><meta property="og:image:width" content="1200"><meta property="og:type" content="article">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"><link rel="stylesheet" type="text/css" href="styles.css?v=7">
+<style id="ROLL-NUMBER-style" type="text/css">
+    roll-number {
+        display: inline-block;
+        position: relative;
+        font-size: 0;
+    }</style><link type="text/css" rel="stylesheet" href="all-styles.css?v=1717445239953"></head>
+<body>
+    
+        
+        <div id="main-overlay" style="position:fixed;top:0;left:0;width:100%;height:100vh;background:#000;z-index:99999999;"></div>
+
+        <web-application graphql-api-base="undefined" base-url="/" block-component="" style="display: block;" has-rendered="">
+<app-router></app-router>
+<app-header has-rendered="" style="display: block;"> <div class="z:99 fixed tr:0 h:100vhfix  fit flex items:start dir:col just:between c:#0E0E0E pointer:none    (.is-menu-opened):pointer:auto  ">
+<div class="shrink:0 w:fit mask bg:#EDECE7 grow:1 transform shift-y:-100% (.is-menu-opened):shift-y:0 tween:all,1.1s,easeOut ">
+  <div class="h:fit p-x:40fx p-x:10fx@m flex items:start dir:col just:between w:fit  transform shift-y:100% (.is-menu-opened):shift-y:0 tween:all,1.1s,easeOut">
+    <header class="w:fit flex items:center just:between p-t:40fx p-t:10fx@m">
+      <!-- <lottie-player 
+                        class="w:86fx h:28fx block" 
+                        src="assets/json/RJ-HEADER-LOGO-ANIMATION-DARK.json">
+                    </lottie-player>  -->
+
+      <svg class="w:86fx h:28fx block" width="86" height="18" viewBox="0 0 86 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41.184 10.736C41.184 14.912 38.304 17.336 34.992 17.336C31.68 17.336 28.8 14.936 28.8 10.736C28.8 6.56 31.68 4.184 34.992 4.184C38.304 4.184 41.184 6.536 41.184 10.736ZM0.96 17V9.968C0.96 6.008 3.72 4.376 6.288 4.376H7.536V6.44H6.24C4.296 6.44 3.072 7.736 3.072 10.136V17H0.96ZM8.016 10.736C8.016 6.632 10.632 4.136 14.112 4.184C18.12 4.232 19.968 7.304 19.968 10.376C19.968 10.736 19.944 11.072 19.896 11.432H10.224C10.416 14.192 12.168 15.392 14.232 15.392C16.176 15.392 17.328 14.504 17.736 13.04H19.896C19.464 15.56 17.352 17.336 14.184 17.336C10.848 17.336 8.016 15.152 8.016 10.736ZM10.272 9.608H17.736C17.472 7.112 15.888 6.128 14.064 6.128C12.096 6.128 10.584 7.136 10.272 9.608ZM20.472 17.144V15.08H21.768C23.712 15.08 24.936 13.784 24.936 11.384V4.52H27.048V11.552C27.048 15.512 24.288 17.144 21.72 17.144H20.472ZM24.552 1.52C24.552 0.727999 25.224 0.079999 25.992 0.079999C26.736 0.079999 27.408 0.727999 27.408 1.52C27.408 2.336 26.736 2.984 25.992 2.984C25.224 2.984 24.552 2.336 24.552 1.52ZM30.984 10.76C30.984 13.856 32.832 15.392 34.992 15.392C37.152 15.392 39 13.856 39 10.76C39 7.544 37.152 6.128 34.992 6.128C32.832 6.128 30.984 7.544 30.984 10.76ZM42.936 12.032V4.52H45.048V11.6C45.048 14.384 46.416 15.416 48.36 15.416C50.304 15.416 51.672 14.384 51.672 11.6V4.52H53.784V12.032C53.784 15.872 50.856 17.336 48.36 17.336C45.864 17.336 42.936 15.872 42.936 12.032ZM55.704 1.52C55.704 0.727999 56.376 0.079999 57.144 0.079999C57.888 0.079999 58.56 0.727999 58.56 1.52C58.56 2.336 57.888 2.984 57.144 2.984C56.376 2.984 55.704 2.336 55.704 1.52ZM56.088 17V4.52H58.2V17H56.088ZM59.952 10.736C59.952 6.56 62.808 4.184 66.12 4.184C69.216 4.184 71.736 5.792 71.976 9.2H69.84C69.552 6.896 67.968 6.128 66.072 6.128C63.936 6.128 62.136 7.544 62.136 10.76C62.136 13.856 63.912 15.392 66.096 15.392C68.016 15.392 69.528 14.264 69.84 11.96H71.976C71.736 15.416 69.264 17.336 66.144 17.336C62.784 17.336 59.952 14.936 59.952 10.736ZM73.056 10.736C73.056 6.632 75.672 4.136 79.152 4.184C83.16 4.232 85.008 7.304 85.008 10.376C85.008 10.736 84.984 11.072 84.936 11.432H75.264C75.456 14.192 77.208 15.392 79.272 15.392C81.216 15.392 82.368 14.504 82.776 13.04H84.936C84.504 15.56 82.392 17.336 79.224 17.336C75.888 17.336 73.056 15.152 73.056 10.736ZM75.312 9.608H82.776C82.512 7.112 80.928 6.128 79.104 6.128C77.136 6.128 75.624 7.136 75.312 9.608Z" fill="#2D2B2B"></path>
+      </svg>
+
+      <button aria-label="Close Menu" @click="$$0$$" class="p:0@m p:8fx,0fx@m border:solid,1px,transparent@m radius:45fx@m fs:17fx@m  bg:none border:none fs:20fx underlined-link">
+        <span class="iblock align-y:middle d:none@m"> Close </span>
+        <span class="d:none d:inline-block@m rel radius:100%  align-y:middle w:48fx h:48fx border:solid,1px,currentColor@m">
+          <span class="h:1px w:10px bg:currentColor abs tl:50% iblock transform shift-x:-50% shift-y:-50% rotate:-45deg"></span>
+          <span class="h:1px w:10px bg:currentColor abs tl:50% iblock transform shift-x:-50% shift-y:-50% rotate:45deg"></span>
+        </span>
+      </button>
+    </header>
+
+    <div class="w:fit">
+      <div class="flex items:start just:between w:fit">
+        <div class=" d:none@m">
+          <div class="group bg:none border:none space-y:10fx">
+            <!-- <div class="transform shift-y:-50fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1  tween:all,1.3s,easeOut (.is-menu-opened):tween:all,1.6s,0.2s,easeOut">
+                                    <h2 class="fs:16fx">The Venture Agency</h2>
+                                </div> -->
+            <div class="mask transform shift-y:-50fx scale:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):scale:1  radius:4fx tween:all,1.3s,easeOut (.is-menu-opened):tween:all,1.6s,0.1s,easeOut">
+              <img src="assets/images/reel-poster-new.webp" alt="Reel poster" width="650" height="425" class="transform w:325fx h:212fx bg:#FFFCF1 radius:3fx scale:2 (.is-menu-opened):shift-y:0vh (.is-menu-opened):scale:1  tween:all,1.3s,easeOut (.is-menu-opened):tween:all,1.6s,0.1s,easeOut">
+              <video playsinline="" loop="" muted="" autoplay="" class="abs tl:0 fit object:cover" is-clone=""></video>
+            </div>
+            <nav @click="$$2$$" class="flex just:between items:center fs:16fx m-b:7fx transform shift-y:-50fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1  tween:all,1.3s,easeOut (.is-menu-opened):tween:all,1.6s,easeOut">
+              <button class="border:none bg:none space-x:9fx flex items:center just:start ">
+                <span class="bg:#0E0E0E h:20fx w:20fx flex items:center just:center radius:100px">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" class="fill:#fff">
+                    <path d="M3.47669 2.67493C3.73935 2.87702 3.7363 3.27408 3.47058 3.47212L0.864538 5.4143C0.537145 5.6583 0.0711485 5.42822 0.0657971 5.01995L0.013533 1.03249C0.00805605 0.614631 0.487176 0.374829 0.818385 0.629658L3.47669 2.67493Z"></path>
+                  </svg>
+                </span>
+                <span class="iblock align-y:middle underlined-link">Play reel</span>
+              </button>
+              <p>—01:18</p>
+            </nav>
+          </div>
+        </div>
+
+        <div class="w:550fx space-y:80fx p-l:0fx@m w:fit@m">
+          <ul class=" fs:50fx lh:1.04 letter:-1px">
+                <li class="__perspective:1000px lh:0">
+                  <a href="" __style="transform-style: preserve-3d;" class="nav-link lh:1 mask $$1$$ group rel hover:c:#0E0E0E iblock w:auto transform shift-y:100fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1 tween:all,1.3s,easeOut $$2$$ is-active (.is-menu-opened):tween:all,1.1s,0s,easeOut">
+                    <span class="iblock transform" style="transform-style: preserve-3d;">
+                      <span class="iblock origin:50%,100% transform (.group:hover):_rotate-x:90deg  (.group:hover):shift-y:-1em  (.group:hover):o:0  tween:all,0.5s,easeOutCubic"><span>Home</span></span>
+                      <span class="iblock origin:50%,0% abs o:0 tl:0 w:fit transform _rotate-x:-90deg (.group:hover):_rotate-x:0deg shift-y:1em o:0  (.group:hover):shift-y:0 (.group:hover):o:1   tween:all,0.5s,easeOutCubic"><span>Home</span></span>
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="__perspective:1000px lh:0">
+                  <a href="work" __style="transform-style: preserve-3d;" class="nav-link lh:1 mask $$1$$ group rel hover:c:#0E0E0E iblock w:auto transform shift-y:100fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1 tween:all,1.3s,easeOut $$2$$ (.is-menu-opened):tween:all,1.1s,0.1s,easeOut">
+                    <span class="iblock transform" style="transform-style: preserve-3d;">
+                      <span class="iblock origin:50%,100% transform (.group:hover):_rotate-x:90deg  (.group:hover):shift-y:-1em  (.group:hover):o:0  tween:all,0.5s,easeOutCubic"><span>Work</span></span>
+                      <span class="iblock origin:50%,0% abs o:0 tl:0 w:fit transform _rotate-x:-90deg (.group:hover):_rotate-x:0deg shift-y:1em o:0  (.group:hover):shift-y:0 (.group:hover):o:1   tween:all,0.5s,easeOutCubic"><span>Work</span></span>
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="__perspective:1000px lh:0">
+                  <a href="services" __style="transform-style: preserve-3d;" class="nav-link lh:1 mask $$1$$ group rel hover:c:#0E0E0E iblock w:auto transform shift-y:100fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1 tween:all,1.3s,easeOut $$2$$ (.is-menu-opened):tween:all,1.1s,0.2s,easeOut">
+                    <span class="iblock transform" style="transform-style: preserve-3d;">
+                      <span class="iblock origin:50%,100% transform (.group:hover):_rotate-x:90deg  (.group:hover):shift-y:-1em  (.group:hover):o:0  tween:all,0.5s,easeOutCubic"><span>Services <span class="d:none@m">&amp; Models</span></span></span>
+                      <span class="iblock origin:50%,0% abs o:0 tl:0 w:fit transform _rotate-x:-90deg (.group:hover):_rotate-x:0deg shift-y:1em o:0  (.group:hover):shift-y:0 (.group:hover):o:1   tween:all,0.5s,easeOutCubic"><span>Services <span class="d:none@m">&amp; Models</span></span></span>
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="__perspective:1000px lh:0">
+                  <a href="about" __style="transform-style: preserve-3d;" class="nav-link lh:1 mask $$1$$ group rel hover:c:#0E0E0E iblock w:auto transform shift-y:100fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1 tween:all,1.3s,easeOut $$2$$ (.is-menu-opened):tween:all,1.1s,0.30000000000000004s,easeOut">
+                    <span class="iblock transform" style="transform-style: preserve-3d;">
+                      <span class="iblock origin:50%,100% transform (.group:hover):_rotate-x:90deg  (.group:hover):shift-y:-1em  (.group:hover):o:0  tween:all,0.5s,easeOutCubic"><span>About</span></span>
+                      <span class="iblock origin:50%,0% abs o:0 tl:0 w:fit transform _rotate-x:-90deg (.group:hover):_rotate-x:0deg shift-y:1em o:0  (.group:hover):shift-y:0 (.group:hover):o:1   tween:all,0.5s,easeOutCubic"><span>About</span></span>
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="__perspective:1000px lh:0">
+                  <a href="contact" __style="transform-style: preserve-3d;" class="nav-link lh:1 mask $$1$$ group rel hover:c:#0E0E0E iblock w:auto transform shift-y:100fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1 tween:all,1.3s,easeOut $$2$$ (.is-menu-opened):tween:all,1.1s,0.4s,easeOut">
+                    <span class="iblock transform" style="transform-style: preserve-3d;">
+                      <span class="iblock origin:50%,100% transform (.group:hover):_rotate-x:90deg  (.group:hover):shift-y:-1em  (.group:hover):o:0  tween:all,0.5s,easeOutCubic"><span>Contact</span></span>
+                      <span class="iblock origin:50%,0% abs o:0 tl:0 w:fit transform _rotate-x:-90deg (.group:hover):_rotate-x:0deg shift-y:1em o:0  (.group:hover):shift-y:0 (.group:hover):o:1   tween:all,0.5s,easeOutCubic"><span>Contact</span></span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="d:none@m p-y:20fx transform shift-y:50fx o:0 (.is-menu-opened):shift-y:0vh (.is-menu-opened):o:1  tween:all,1.3s,easeOut (.is-menu-opened):tween:all,1.6s,0.5s,easeOut">
+      <a href="/contact" class="rel mask group m-l:806fx fs:16fx lh:1.2 radius:45px p:14fx,25fx border:solid,1px,currentColor iblock ">
+        <span class="rel o:0">Take a seat</span>
+        <span class="abs tl:0 fit flex items:center just:center  c:currentColor transform shift-y:0% (.group:hover):shift-y:-100% (.group:hover):o:0 tween:all,0.6s,easeOut">Take a seat</span>
+        <span class="c:currentColor abs tl:0 fit flex items:center just:center o:0 transform shift-y:100% (.group:hover):o:1 (.group:hover):shift-y:0 tween:all,0.6s,easeOut">Take a seat</span>
+        <span style="width: calc(100% + 2px); left: -1px;" class="abs tl:0 fit bg:#0E0E0E  transform shift-x:-100% (.group:hover):shift-x:0 tween:all,0.6s,easeOut mask">
+          <span aria-hidden="true" class="bg:#0E0E0E abs tl:0 fit flex items:center just:center c:#ffffff   transform tween:all,0.6s,easeOut shift-x:100% (.group:hover):shift-x:0 ">
+            <span class="abs tl:0 fit flex items:center just:center  transform shift-y:0% c:#ffffff (.group:hover):shift-y:-100% (.group:hover):o:0 tween:all,0.6s,easeOut">Take a seat</span>
+            <span class="abs tl:0 fit flex items:center just:center o:0 transform shift-y:100% c:#ffffff (.group:hover):o:1 (.group:hover):shift-y:0 tween:all,0.6s,easeOut">Take a seat</span>
+          </span>
+        </span>
+      </a>
+    </div>
+
+    <div class="flex items:center just:between w:fit p-y:13fx rel  d:block@m p-l:0fx@m">
+      <div class="d:none@m abs tl:0 w:fit h:1px bg:currentColor scale-y:0.5 scale-x:0 origin:0,0 (.is-menu-opened):scale-x:1 transform (.is-menu-opened):tween:transform,1.3s,0.4s,easeOut"></div>
+
+      <div class="d:none@m fs:16fx iblock w:auto shift-x:100px (.is-menu-opened):shift-x:0 transform (.is-menu-opened):tween:transform,1.3s,0.4s,easeOut">
+              <span class="o:0 (.is-menu-opened):o:1 $$0$$ (.is-menu-opened):tween:opacity,0.5s,0.4s,easeOut"><span>Tomorrow's</span></span>
+            
+              <span class="o:0 (.is-menu-opened):o:1 $$0$$ (.is-menu-opened):tween:opacity,0.65s,0.55s,easeOut"><span>Brands,</span></span>
+            
+              <span class="o:0 (.is-menu-opened):o:1 $$0$$ (.is-menu-opened):tween:opacity,0.8s,0.7s,easeOut"><span>Today.™</span></span>
+            </div>
+      <ul class="flex items:center just:end space-x:10px d:block@m fs:16fx m-b:10fx@m space-y:7fx@m">
+        <li class=" shift-x:100px (.is-menu-opened):shift-x:0 transform (.is-menu-opened):tween:transform,1.6s,0.3s,easeOut">
+          <a href="work" class="space-x:-1px group">
+            <span class="underlined-link align-y:middle">X</span>
+            <svg class="iblock tween:transform,0.6s,easeOutCubic transform group-hover:rotate:45deg align-y:middle" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.82813 13.1411L13.1413 6.82841M13.1413 6.82841L7.48446 6.82841M13.1413 6.82841L13.1413 12.4853" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </li>
+        <li class=" shift-x:100px (.is-menu-opened):shift-x:0 transform (.is-menu-opened):tween:transform,1.6s,0.4s,easeOut">
+          <a href="services" class="space-x:-1px group">
+            <span class="underlined-link align-y:middle">Instagram</span>
+            <svg class="iblock tween:transform,0.6s,easeOutCubic transform group-hover:rotate:45deg align-y:middle" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.82813 13.1411L13.1413 6.82841M13.1413 6.82841L7.48446 6.82841M13.1413 6.82841L13.1413 12.4853" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </li>
+        <li class=" shift-x:100px (.is-menu-opened):shift-x:0 transform (.is-menu-opened):tween:transform,1.6s,0.5s,easeOut">
+          <a href="contact" class="space-x:-1px group">
+            <span class="underlined-link align-y:middle">LinkedIn</span>
+            <svg class="iblock tween:transform,0.6s,easeOutCubic transform group-hover:rotate:45deg align-y:middle" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.82813 13.1411L13.1413 6.82841M13.1413 6.82841L7.48446 6.82841M13.1413 6.82841L13.1413 12.4853" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class=" w:fit  p-y:40fy o:0! d:none@m">
+  <svg class=" w:fit" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 0,212.431 H 35.0769 V 98.6631 c 0,-39.7789 20.3287,-61.2596 52.6154,-61.2596 H 109.217 V 3.1936 H 88.4895 C 45.8391,3.1936 0,30.2433 0,95.8786 Z" fill="#fffcf1" id="path132"></path>
+  </svg>
+</div>
+</div>
+
+<header content="" class="
+        | c:#000 (.is-dark-theme):c:#fff  w:fit t:0 transform w:fit p:40fx p-x:10fx@m p-y:16fx@m 
+        | z:11 fixed tl:0 w:fit block (.is-footer):o:0 (.is-footer):pointer:none
+        | (&amp;.is-fixed):bg:#FAF8F3@m
+        | (&amp;.is-fixed):box-shadow:0,10px,20px,#0000000d@m
+        | (.is-dark-theme/&amp;.is-fixed):bg:#0E0E0E@m" style="transform: translateY(0px) translateZ(0);">
+<div class="flex items:center just:between">
+  <a href="" aria-label="back to home">
+    <div class="iblock rel">
+      <div class="$$5$$ nowrap abs t:50% l:0 transform shift-y:-50% o:0 (.is-loader-ended):tween:opacity,0.6s,easeOut">
+        <div class="fs:20fx fs:17fx@m iblock w:auto shift-x:100px (.is-loader-ended):shift-x:0 transform (.is-loader-ended):tween:transform,1.3s,1.8s,easeOut">
+                <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.5s,1.8s,easeOut"><span>The</span></span>
+              
+                <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.65s,1.95s,easeOut"><span>Venture</span></span>
+              
+                <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.8s,2.1s,easeOut"><span>Agency.</span></span>
+              </div>
+      </div>
+      <div class="rel $$7$$ tween:opacity,0.6s,0.3s,easeOut o:0 tween:opacity,0.6s,easeOut!">
+        <svg class="o:0 (.is-dark-theme):o:1 w:86fx h:28fx block " width="86" height="18" viewBox="0 0 86 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M41.184 10.736C41.184 14.912 38.304 17.336 34.992 17.336C31.68 17.336 28.8 14.936 28.8 10.736C28.8 6.56 31.68 4.184 34.992 4.184C38.304 4.184 41.184 6.536 41.184 10.736ZM0.96 17V9.968C0.96 6.008 3.72 4.376 6.288 4.376H7.536V6.44H6.24C4.296 6.44 3.072 7.736 3.072 10.136V17H0.96ZM8.016 10.736C8.016 6.632 10.632 4.136 14.112 4.184C18.12 4.232 19.968 7.304 19.968 10.376C19.968 10.736 19.944 11.072 19.896 11.432H10.224C10.416 14.192 12.168 15.392 14.232 15.392C16.176 15.392 17.328 14.504 17.736 13.04H19.896C19.464 15.56 17.352 17.336 14.184 17.336C10.848 17.336 8.016 15.152 8.016 10.736ZM10.272 9.608H17.736C17.472 7.112 15.888 6.128 14.064 6.128C12.096 6.128 10.584 7.136 10.272 9.608ZM20.472 17.144V15.08H21.768C23.712 15.08 24.936 13.784 24.936 11.384V4.52H27.048V11.552C27.048 15.512 24.288 17.144 21.72 17.144H20.472ZM24.552 1.52C24.552 0.727999 25.224 0.079999 25.992 0.079999C26.736 0.079999 27.408 0.727999 27.408 1.52C27.408 2.336 26.736 2.984 25.992 2.984C25.224 2.984 24.552 2.336 24.552 1.52ZM30.984 10.76C30.984 13.856 32.832 15.392 34.992 15.392C37.152 15.392 39 13.856 39 10.76C39 7.544 37.152 6.128 34.992 6.128C32.832 6.128 30.984 7.544 30.984 10.76ZM42.936 12.032V4.52H45.048V11.6C45.048 14.384 46.416 15.416 48.36 15.416C50.304 15.416 51.672 14.384 51.672 11.6V4.52H53.784V12.032C53.784 15.872 50.856 17.336 48.36 17.336C45.864 17.336 42.936 15.872 42.936 12.032ZM55.704 1.52C55.704 0.727999 56.376 0.079999 57.144 0.079999C57.888 0.079999 58.56 0.727999 58.56 1.52C58.56 2.336 57.888 2.984 57.144 2.984C56.376 2.984 55.704 2.336 55.704 1.52ZM56.088 17V4.52H58.2V17H56.088ZM59.952 10.736C59.952 6.56 62.808 4.184 66.12 4.184C69.216 4.184 71.736 5.792 71.976 9.2H69.84C69.552 6.896 67.968 6.128 66.072 6.128C63.936 6.128 62.136 7.544 62.136 10.76C62.136 13.856 63.912 15.392 66.096 15.392C68.016 15.392 69.528 14.264 69.84 11.96H71.976C71.736 15.416 69.264 17.336 66.144 17.336C62.784 17.336 59.952 14.936 59.952 10.736ZM73.056 10.736C73.056 6.632 75.672 4.136 79.152 4.184C83.16 4.232 85.008 7.304 85.008 10.376C85.008 10.736 84.984 11.072 84.936 11.432H75.264C75.456 14.192 77.208 15.392 79.272 15.392C81.216 15.392 82.368 14.504 82.776 13.04H84.936C84.504 15.56 82.392 17.336 79.224 17.336C75.888 17.336 73.056 15.152 73.056 10.736ZM75.312 9.608H82.776C82.512 7.112 80.928 6.128 79.104 6.128C77.136 6.128 75.624 7.136 75.312 9.608Z" fill="#FFFCF1"></path>
+        </svg>
+
+        <svg class="o:1 (.is-dark-theme):o:0 abs tl:0 w:86fx h:28fx block " width="86" height="18" viewBox="0 0 86 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M41.184 10.736C41.184 14.912 38.304 17.336 34.992 17.336C31.68 17.336 28.8 14.936 28.8 10.736C28.8 6.56 31.68 4.184 34.992 4.184C38.304 4.184 41.184 6.536 41.184 10.736ZM0.96 17V9.968C0.96 6.008 3.72 4.376 6.288 4.376H7.536V6.44H6.24C4.296 6.44 3.072 7.736 3.072 10.136V17H0.96ZM8.016 10.736C8.016 6.632 10.632 4.136 14.112 4.184C18.12 4.232 19.968 7.304 19.968 10.376C19.968 10.736 19.944 11.072 19.896 11.432H10.224C10.416 14.192 12.168 15.392 14.232 15.392C16.176 15.392 17.328 14.504 17.736 13.04H19.896C19.464 15.56 17.352 17.336 14.184 17.336C10.848 17.336 8.016 15.152 8.016 10.736ZM10.272 9.608H17.736C17.472 7.112 15.888 6.128 14.064 6.128C12.096 6.128 10.584 7.136 10.272 9.608ZM20.472 17.144V15.08H21.768C23.712 15.08 24.936 13.784 24.936 11.384V4.52H27.048V11.552C27.048 15.512 24.288 17.144 21.72 17.144H20.472ZM24.552 1.52C24.552 0.727999 25.224 0.079999 25.992 0.079999C26.736 0.079999 27.408 0.727999 27.408 1.52C27.408 2.336 26.736 2.984 25.992 2.984C25.224 2.984 24.552 2.336 24.552 1.52ZM30.984 10.76C30.984 13.856 32.832 15.392 34.992 15.392C37.152 15.392 39 13.856 39 10.76C39 7.544 37.152 6.128 34.992 6.128C32.832 6.128 30.984 7.544 30.984 10.76ZM42.936 12.032V4.52H45.048V11.6C45.048 14.384 46.416 15.416 48.36 15.416C50.304 15.416 51.672 14.384 51.672 11.6V4.52H53.784V12.032C53.784 15.872 50.856 17.336 48.36 17.336C45.864 17.336 42.936 15.872 42.936 12.032ZM55.704 1.52C55.704 0.727999 56.376 0.079999 57.144 0.079999C57.888 0.079999 58.56 0.727999 58.56 1.52C58.56 2.336 57.888 2.984 57.144 2.984C56.376 2.984 55.704 2.336 55.704 1.52ZM56.088 17V4.52H58.2V17H56.088ZM59.952 10.736C59.952 6.56 62.808 4.184 66.12 4.184C69.216 4.184 71.736 5.792 71.976 9.2H69.84C69.552 6.896 67.968 6.128 66.072 6.128C63.936 6.128 62.136 7.544 62.136 10.76C62.136 13.856 63.912 15.392 66.096 15.392C68.016 15.392 69.528 14.264 69.84 11.96H71.976C71.736 15.416 69.264 17.336 66.144 17.336C62.784 17.336 59.952 14.936 59.952 10.736ZM73.056 10.736C73.056 6.632 75.672 4.136 79.152 4.184C83.16 4.232 85.008 7.304 85.008 10.376C85.008 10.736 84.984 11.072 84.936 11.432H75.264C75.456 14.192 77.208 15.392 79.272 15.392C81.216 15.392 82.368 14.504 82.776 13.04H84.936C84.504 15.56 82.392 17.336 79.224 17.336C75.888 17.336 73.056 15.152 73.056 10.736ZM75.312 9.608H82.776C82.512 7.112 80.928 6.128 79.104 6.128C77.136 6.128 75.624 7.136 75.312 9.608Z" fill="#2D2B2B"></path>
+        </svg>
+
+        <!-- 
+                        <lottie-player 
+                            class="o:0 (.is-dark-theme):o:1 w:86fx h:28fx block " 
+                            src="assets/json/RJ-HEADER-LOGO-ANIMATION.json">
+                        </lottie-player> 
+                        <lottie-player 
+                            class="o:1 (.is-dark-theme):o:0 abs tl:0 w:86fx h:28fx block " 
+                            src="assets/json/RJ-HEADER-LOGO-ANIMATION-DARK.json">
+                        </lottie-player>  
+                        -->
+      </div>
+    </div>
+  </a>
+
+  <button @click="$$8$$" class="p:8fx,20fx@m border:solid,1px,currentColor@m radius:45fx@m fs:17fx@m fs:20fx iblock bg:none border:none o:0 (.is-loader-ended):o:1 (.is-loader-ended):tween:opacity,0.7s,1.8s,easeOut underlined-link">
+    Menu
+  </button>
+</div>
+</header></app-header>
+
+<app-loader has-rendered="">
+    <div class="w:fit h:100vhfix bg:#0E0E0E fixed tl:0 z:10000000 $$0$$ $$1$$ o:0 pointer:none">
+    </div></app-loader>
+
+<!-- <gl-scene> -->
+<main page-container=""> <app-block name="$$0$$" type="block_home" content="$$2$$" class="block" has-rendered=""><block-home has-rendered=""> <section dark-theme="" @click="$$0$$" class="rel z:2 h:100vhfix c:#FFFCF1 w:fit mask">
+  <scroll-object class="block abs tl:0 fit" parallax="" ratio="-0.1">
+    <img loading="lazy" decode="async" width="2880" height="1992" alt="null" class="abs tl:0 fit object:cover transform scale:1.4 (.is-loader-ended):scale:1 (.is-loader-ended):tween:all,1.8s,2s,easeOutSlow" src="https://images.prismic.io/rejouice/6331fd94-e38f-42b1-9be4-714d5f4934f0_image+1946.jpg?auto=compress%2Cformat&amp;fm=webp">
+
+    <video loop="" muted="" playsinline="" preload="" class="abs tl:0 fit object:cover transform scale:1.4 (.is-loader-ended):scale:1 (.is-loader-ended):tween:all,1.8s,2s,easeOutSlow" is-clone="" src="https://prismic-io.s3.amazonaws.com/rejouice/658ef98d531ac2845a270509_RJ-2-0-Videobackground_compressed.mp4"></video>
+
+    <div class="fs:20fx fs:17fx@m abs tl:0 w:fit h:fit bg:#0E0E0E c:#FAF8F3 flex items:center just:center  o:1 (.is-loader-ended):o:0 (.is-loader-ended):tween:all,2s,2.2s,easeOutSlow">
+      <div class="iblock w:auto shift-x:100px (.is-loader-ended):shift-x:0 transform (.is-loader-ended):tween:transform,1.3s,easeOutSlow">
+        <div class="iblock w:auto shift-x:0px (.is-loader-ended):shift-x:-100px transform (.is-loader-ended):tween:transform,1.2s,1.5s,easeIn">
+              <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.5s,0s,easeOut">
+                <span class="o:1 (.is-loader-ended):o:0 $$1$$ (.is-loader-ended):tween:opacity,0.4s,1.5s,easeOut"><span>Tomorrow's</span></span>
+              </span>
+            
+              <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.65s,0.15s,easeOut">
+                <span class="o:1 (.is-loader-ended):o:0 $$1$$ (.is-loader-ended):tween:opacity,0.25s,1.65s,easeOut"><span>Brands,</span></span>
+              </span>
+            
+              <span class="o:0 (.is-loader-ended):o:1 $$0$$ (.is-loader-ended):tween:opacity,0.8s,0.3s,easeOut">
+                <span class="o:1 (.is-loader-ended):o:0 $$1$$ (.is-loader-ended):tween:opacity,0.10000000000000003s,1.8s,easeOut"><span>Today.™</span></span>
+              </span>
+            </div>
+      </div>
+    </div>
+
+    <core-cursor-wrapper class="transform block abs tl:0 fit">
+      <core-cursor aria-hidden="true" class="transform d:block tl:0fx w:92fx h:92fx _max-w:92px _max-h:92px pointer:none z:2 border:none abs tl:0 fs:0 | d:none@m ">
+        <div class="
+                            abs tl:0 fit bg:#0E0E0Eaa c:#FFFCF1 flex items:center just:center radius:200px  mask
+                            transform scale:0 (.is-loader-ended):scale:1 (.is-loader-ended):tween:transform,1s,2.2s,easeOut 
+                        ">
+          <span class="fs:13fx transform c:#ffffff">Play Reel</span>
+        </div>
+      </core-cursor>
+    </core-cursor-wrapper>
+  </scroll-object>
+
+  <div class="abs tl:0 fit flex items:end just:between p:44fx,40fx p:20fx,10fx@m">
+    <div class="align-x:right d:none d:block@m transform shift-y:0fx tween:transform,0.6s,easeOut (.has-cookie-bar):shift-y:-105fx@m">
+      <div class="bg:none border:none">
+        <div class="iblock transform shift-y:50fx scale:0 (.is-loader-ended):shift-y:0vh (.is-loader-ended):scale:1  radius:4fx (.is-loader-ended):tween:all,1.6s,1.8s,easeOut">
+          <img loading="lazy" decode="async" src="assets/images/reel-poster.webp" width="420" height="240" class="w:210fx h:120fx bg:#FFFCF1 radius:4fx" alt="Rell poster">
+        </div>
+        <nav class="flex just:between items:center fs:16fx m-b:7fx m-b:0@m ">
+          <button class="border:none bg:none space-x:9fx flex items:center just:start ">
+            <span class="bg:#FF5F38 h:20fx w:20fx flex items:center just:center radius:100px transform shift-y:50fx o:0 (.is-loader-ended):shift-y:0vh (.is-loader-ended):o:1 (.is-loader-ended):tween:all,1.6s,2s,easeOut">
+              <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none">
+                <path d="M3.47669 2.67493C3.73935 2.87702 3.7363 3.27408 3.47058 3.47212L0.864538 5.4143C0.537145 5.6583 0.0711485 5.42822 0.0657971 5.01995L0.013533 1.03249C0.00805605 0.614631 0.487176 0.374829 0.818385 0.629658L3.47669 2.67493Z" fill="#FFFCF1"></path>
+              </svg>
+            </span>
+            <span class="iblock align-y:middle transform shift-y:50fx o:0 (.is-loader-ended):shift-y:0vh (.is-loader-ended):o:1 (.is-loader-ended):tween:all,1.6s,2.1s,easeOut">Play reel</span>
+          </button>
+          <p class="transform shift-y:50fx o:0 (.is-loader-ended):shift-y:0vh (.is-loader-ended):o:1 (.is-loader-ended):tween:all,1.6s,2.2s,easeOut">
+            —01:18
+          </p>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="abs bl:0 w:fit p-x:40fx d:none@m">
+    <div class="block rel mask transform shift-y:0fx tween:transform,0.6s,easeOut (.has-cookie-bar):shift-y:-65fx">
+      <div class="w:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$7$$ (.is-loader-ended):tween:all,1.4s,1.7s,easeOutSlow">
+        <svg class=" w:fit" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 0,212.431 H 35.0769 V 98.6631 c 0,-39.7789 20.3287,-61.2596 52.6154,-61.2596 H 109.217 V 3.1936 H 88.4895 C 45.8391,3.1936 0,30.2433 0,95.8786 Z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$8$$ (.is-loader-ended):tween:all,1.4s,1.7349999999999999s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 116.161,108.608 c 0,73.193 47.035,109.392 102.441,109.392 52.615,0 87.692,-29.436 94.867,-71.204 h -35.874 c -6.776,24.265 -25.909,38.983 -58.196,38.983 -34.28,0 -63.377,-19.889 -66.566,-65.635 h 160.636 c 0.797,-5.967 1.196,-11.536 1.196,-17.503 C 314.665,51.7239 283.973,0.806864 217.406,0.011271 159.609,-0.784298 116.161,40.5858 116.161,108.608 Z M 153.63,89.9117 c 5.182,-40.9723 30.294,-57.6794 62.979,-57.6794 30.294,0 56.601,16.3093 60.986,57.6794 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$9$$ (.is-loader-ended):tween:all,1.4s,1.77s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 313.469,120.144 c 0.797,-5.967 1.196,-11.536 1.196,-17.503 -5.74609,1.08665 -7.04383,17.53827 -1.196,17.503 z m 8.539,94.674 h 20.727 c 42.651,0 88.49,-27.05 88.49,-92.685 V 5.58032 H 396.148 V 119.348 c 0,39.779 -20.329,61.26 -52.615,61.26 h -21.525 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$10$$ (.is-loader-ended):tween:all,1.4s,1.805s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 660.864,108.608 c 0,-69.6133 -47.832,-108.596729 -102.839,-108.596729 -55.007,0 -102.839,39.381129 -102.839,108.596729 0,69.613 47.832,109.392 102.839,109.392 55.007,0 102.839,-40.177 102.839,-109.392 z m -169.405,0.398 c 0,-53.3042 30.692,-76.7737 66.566,-76.7737 35.874,0 66.567,23.4695 66.567,76.7737 0,51.314 -30.693,76.773 -66.567,76.773 -35.874,0 -66.566,-25.459 -66.566,-76.773 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$11$$ (.is-loader-ended):tween:all,1.4s,1.8399999999999999s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 683.798,130.088 c 0,63.647 48.63,87.912 90.084,87.912 41.455,0 90.084,-24.265 90.084,-87.912 V 5.58032 H 828.889 V 122.928 c 0,46.144 -22.72,63.249 -55.007,63.249 -32.286,0 -55.007,-17.105 -55.007,-63.249 V 5.58032 h -35.077 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$12$$ (.is-loader-ended):tween:all,1.4s,1.875s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 891.959,212.431 h 35.077 V 5.58032 h -35.077 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$13$$ (.is-loader-ended):tween:all,1.4s,1.91s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 946.888,108.608 c 0,69.613 47.034,109.392 102.842,109.392 51.81,0 92.87,-31.823 96.86,-89.105 h -35.48 c -5.18,38.188 -30.29,56.884 -62.18,56.884 -36.27,0 -65.77,-25.459 -65.77,-76.773 0,-53.3042 29.9,-76.7737 65.37,-76.7737 31.49,0 57.8,12.7292 62.58,50.917 h 35.48 C 1142.6,26.6632 1100.75,0.011271 1049.33,0.011271 994.321,0.011271 946.888,39.3924 946.888,108.608 Z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+      <div class="abs tl:0 w:fit h:fit p-y:40fy transform shift-y:100% (.is-loader-ended):shift-y:0% $$14$$ (.is-loader-ended):tween:all,1.4s,1.945s,easeOutSlow">
+        <svg class="w:fit " viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 1163.5,108.608 c 0,73.193 47.03,109.392 102.44,109.392 52.61,0 87.69,-29.436 94.86,-71.204 h -35.87 c -6.78,24.265 -25.91,38.983 -58.2,38.983 -34.28,0 -63.37,-19.889 -66.56,-65.635 h 160.63 c 0.8,-5.967 1.2,-11.536 1.2,-17.503 C 1362,51.7239 1331.31,0.806864 1264.74,0.011271 1206.94,-0.784298 1163.5,40.5858 1163.5,108.608 Z m 37.46,-18.6963 c 5.19,-40.9723 30.3,-57.6794 62.98,-57.6794 30.3,0 56.61,16.3093 60.99,57.6794 z" fill="#fffcf1" id="path132"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="abs b:20fx@m r:10fx@m d:none d:block@m transform shift-y:0fx tween:transform,0.6s,easeOut (.has-cookie-bar):shift-y:-105fx@m">
+    <button aria-label="Scroll" class="fs:0 bg:none border:none space-x:10fx  transform shift-y:50fx o:0 (.is-loader-ended):shift-y:0vh (.is-loader-ended):o:1 (.is-loader-ended):tween:all,1.6s,2.3s,easeOut">
+      <svg class="iblock align-y:middle" width="8" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.04624 16.352L5.97861 19.8895C5.8957 19.9724 5.84043 20 5.70224 20H4.26515C4.12697 20 4.0717 19.9724 3.98879 19.8895L0.921153 16.352C0.838244 16.2691 0.838244 16.1585 0.838244 16.0204L0.838244 14.1964C0.838244 14.0582 1.00406 14.0029 1.08697 14.1135L3.96115 17.568C4.04406 17.6785 4.15461 17.6233 4.15461 17.5127L4.15461 0.68218C4.15461 0.599272 4.20988 0.543998 4.29279 0.543998L5.70224 0.543998C5.78515 0.543998 5.84043 0.599272 5.84043 0.68218L5.84043 17.5127C5.84043 17.6233 5.95097 17.6785 6.03388 17.568L8.88043 14.1135C8.96334 14.0029 9.12915 14.0582 9.12915 14.1964V16.0204C9.12915 16.1585 9.12915 16.2415 9.04624 16.352Z" fill="#FFFCF1"></path>
+      </svg>
+      <span class="fs:17fx align-y:middle">Scroll</span>
+    </button>
+  </div>
+</section></block-home></app-block> <app-block name="$$0$$" type="block_intro" content="$$2$$" class="block" has-rendered=""><block-intro has-rendered=""> <div id="null" class="| block rel z:3 p-x:40fx $$1$$ $$2$$ p-x:10fx@m _bg:#FAF8F3 c:#0E0E0E p-y:85fx p-y:40fx@m">
+<video autoplay="" loop="" muted="" playsinline="" class="none abs t:-90% t:0%@m l:50% w:150% w:300%@m max-w:100000% transform shift-y:0% shift-y:-40%@m shift-x:-50% $$4$$ d:none" style="filter:blur(50px);" is-clone=""></video>
+
+<div class="flex items:end just:between">
+<h2 class="(&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$5$$">
+  <split-text><span>Tomorrow’s Brands, Today™</span></split-text>
+</h2>
+<h2 class="align-x:right@m w:120fx@m  (&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$7$$">
+  <split-text><span>Paris / San Diego</span></split-text>
+</h2>
+</div>
+
+<scroll-object class="block rel w:fit $$9$$">
+<hr class="m-b:10fx block h:0.5px bg:#00000080 transform origin:0,0 scale-x:0 (.in-view):scale-x:1 (.in-view):tween:all,1.6s,easeOut border:none ">
+</scroll-object>
+
+<div class="wysiwyg_links fs:62fx fs:28fx@m lh:1.07 _indent:4em letter:-1px (&amp;/em):fs:0.5em (&amp;/a):deco:underline  (&amp;/a):deco-thickness:3px (&amp;/a):underline-offset:0.5em $$10$$">
+<split-text indent="true" css="
+                    sup { 
+                        font-size: 0.5em; 
+                    }
+                    a { 
+                        color: inherit;
+                        text-decoration: none;
+                        position: relative;
+                        text-shadow: -2px -2px 1px #FAF8F3,
+                                     2px -2px 1px #FAF8F3,
+                                     2px 2px 1px #FAF8F3,
+                                     -2px 2px 1px #FAF8F3;
+                    }
+                    a:before,
+                    a:after  {
+                        content: '';
+                        display: block;
+                        height: 0.05em; width: 100%;
+                        background: currentColor;
+                        position: absolute;
+                        top: 100%; left: 0;
+                        margin-top: -0.1em;
+                        will-change: transform;
+                        transform-origin: 100% 0;
+                        z-index: -1;
+                    }
+                    a:before {
+                        transform: scaleX(0) translateZ(0);
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:after {
+                        transform-origin: 0% 0;
+                        transform: scaleX(1) translateZ(0);
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:before,
+                    a.hover:before {
+                        transform: scaleX(1) translateZ(0);
+                        transform-origin: 0% 0;
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:after,
+                    a.hover:after {
+                        transform: scaleX(0) translateZ(0);
+                        transform-origin: 100% 0;
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    sup a:before,
+                    sup a:after  {
+                        display: none;
+                    }
+                }"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a venture firm and digital agency. Our mission is to transform founders' visions into remarkable brands. Choose traditional compensation or an equity offset through our Venture Model — your vision, your decision.<br><br></span></split-text>
+</div>
+</div></block-intro></app-block> <app-block name="$$0$$" type="block_push" content="$$2$$" class="block" has-rendered=""><block-push has-rendered="">
+
+    <section class="z:2 rel p-x:40fx p-x:20fx@m _before _before:p-t:60% mask $$1$$ $$2$$ $$3$$ p-y:130fx p-y:60fx@m bg:#FAF8F3 c:#0E0E0E">
+
+        <scroll-object class="block abs tl:0 fit" parallax="" ratio="-0.1">
+            <img loading="lazy" decode="async" alt="undefined" width="undefined" height="undefined" class="abs tl:0 fit object:cover transform scale:1.4 (.in-view):scale:1 (.in-view):tween:all,1.8s,easeOutSlow">
+            <video autoplay="" loop="" muted="" playsinline="" class="abs tl:0 fit object:cover $$9$$ d:none" is-clone=""></video>
+        </scroll-object>
+
+        <!-- <div class="abs tl:0 fit flex items:center just:center">
+            <gl-sphere class="block w:50% before before:p-t:100%"></gl-sphere>
+        </div> -->
+
+        <div class="_abs _tl:0 w:fit flex items:center just:center">
+            <div class="rel align-x:center __blend:difference ___c:#fff">
+                <div class="(&amp;/*):fs:16fx (&amp;/*):fs:14fx@m lh:1.24 m-b:0.75em space-x:10fx $$10$$">
+                    <span class="iblock align-y:middle"><span><p>Agency &amp; Venture <span class="rel b:0.2em iblock fs:0.625em! lh:2 bg:#0E0E0E c:#FAF8F3 p:0fx,0.7em radius:100px">Models</span></p></span></span>
+                    <span class="iblock align-y:middle transform rotate:-90deg">↵</span>
+                </div>
+                <div class="(&amp;//*):fs:62fx $$12$$ lh:1.07 letter:-0.93px deco:underline deco-thickness:3px underline-offset:0.5em (&amp;//*):fs:50fx@m">
+                    <split-text dark="false" css="
+                        sup { 
+                            font-size: 0.5em; 
+                        }
+                        a { 
+                            color: inherit;
+                            text-decoration: none;
+                            position: relative;
+                            text-shadow: -2px -2px 1px #FAF8F3,
+                                        2px -2px 1px #FAF8F3,
+                                        2px 2px 1px #FAF8F3,
+                                        -2px 2px 1px #FAF8F3;
+                        }
+                        .is-dark-theme a {
+                            text-shadow: -2px -2px 1px transparent,
+                                        2px -2px 1px transparent,
+                                        2px 2px 1px transparent,
+                                        -2px 2px 1px transparent;
+                        }
+                        a:before,
+                        a:after  {
+                            content: '';
+                            display: block;
+                            height: 0.05em; width: 100%;
+                            background: currentColor;
+                            position: absolute;
+                            top: 100%; left: 0;
+                            margin-top: -0.1em;
+                            will-change: transform;
+                            transform-origin: 100% 0;
+                            z-index: -1;
+                        }
+
+                        @media screen and (max-width:600px) {
+                            a:before,
+                            a:after  {
+                                height: 0.035em;
+                            }
+                        }
+
+                        a:before {
+                            transform: scaleX(0) translateZ(0);
+                            transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:after {
+                            transform-origin: 0% 0;
+                            transform: scaleX(1) translateZ(0);
+                            transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:hover:before,
+                        a.hover:before {
+                            transform: scaleX(1) translateZ(0);
+                            transform-origin: 0% 0;
+                            transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:hover:after,
+                        a.hover:after {
+                            transform: scaleX(0) translateZ(0);
+                            transform-origin: 100% 0;
+                            transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        sup a:before,
+                        sup a:after  {
+                            display: none;
+                        }
+                        "><span><h2><a href="https://www.rejouice.com/services" target="_self" rel="noopener noreferrer">Explore our services </a><a href="https://www.rejouice.com/services" target="_self" rel="noopener noreferrer"><br></a><a href="https://www.rejouice.com/services" target="_self" rel="noopener noreferrer">and engagement models</a></h2></span></split-text>
+                </div>
+            </div>
+        </div>
+
+    </section></block-push></app-block> <app-block name="$$0$$" type="block_works_preview" content="$$2$$" class="block" has-rendered=""><block-works-preview has-rendered="">
+
+    <section class="rel z:2 bg:#FAF8F3 c:212121 p-x:40fx p-y:85fx p-x:10fx@m">
+
+        <div class="(&amp;//*):fs:24fx (&amp;//*):fs:14fx@m letter:-0.72px lh:1.24 flex items:center just:between w:fit m-b:13fx">
+            <span class=""><span><h2>Transforming visions into brands.</h2></span></span>
+            <a href="work" class=" ">
+                <span class="transform scale-x:-1 iblock m-r:0.5em m-r:0.25em">↵</span>
+                <span class="underlined-link">See the work</span>
+            </a>
+        </div>
+
+
+
+        <div class="flex items:start just:between w:fit _wrap:wrap overflow-x:auto@m space-x:10fx@m no-scrollbar">
+                <a href="work/rivian" class="group rel mask _radius:4fx before before:p-t:128% w:440fx  before:p-t:140%@m w:250fx@m shrink:0@m">
+                    <img loading="lazy" decode="async" alt="null" width="880" height="1130" class="abs tl:0 fit object:cover" src="https://images.prismic.io/rejouice/d8e1fa1f-4f24-41e1-a249-098c62df5aff_Group+46+%281%29.jpg?auto=compress,format">
+
+                    <app-video-hover class="abs tl:0 fit block">
+                        <video loop="" muted="" playsinline="" class="tween:opacity,0.6s,easeOutCubic o:0 (.group:hover):o:1 abs tl:0 fit object:cover $$6$$" is-clone="" src="https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"></video>
+                    </app-video-hover>
+                    
+                    <span class="pointer:none abs tl:0 fit flex items:end just:center p-b:69fx w:fit align-x:center p-b:20fx@m">
+                        <img loading="lazy" alt="" decode="async" src="https://images.prismic.io/rejouice/922bdc39-4619-4f3e-ad4d-0e68c4dc1ef4_Rivian_LogoLock-Up-Blanc.png?auto=compress,format" width="4100" height="799" class="h:30fx w:auto __w:130fx object:contain h:15fx@m w:fit@m">
+                    </span>
+                </a>
+            
+                <a href="work/oura" class="group rel mask _radius:4fx before before:p-t:128% w:440fx  before:p-t:140%@m w:250fx@m shrink:0@m">
+                    <img loading="lazy" decode="async" alt="null" width="880" height="1130" class="abs tl:0 fit object:cover" src="https://images.prismic.io/rejouice/e0350a3d-c390-4d97-af1a-5c86bc822b52_Group+3929.jpg?auto=compress,format">
+
+                    <app-video-hover class="abs tl:0 fit block">
+                        <video loop="" muted="" playsinline="" class="tween:opacity,0.6s,easeOutCubic o:0 (.group:hover):o:1 abs tl:0 fit object:cover $$6$$" is-clone="" src="https://prismic-io.s3.amazonaws.com/rejouice/3492b027-4212-4103-b2e2-aa702345d784_Website-homepage-Work-02_1.mp4"></video>
+                    </app-video-hover>
+                    
+                    <span class="pointer:none abs tl:0 fit flex items:end just:center p-b:69fx w:fit align-x:center p-b:20fx@m">
+                        <img loading="lazy" alt="" decode="async" src="https://rejouice.cdn.prismic.io/rejouice/db4e8d50-218b-4f4b-b333-50e16b58a6d7_oura.svg" width="81" height="25" class="h:30fx w:auto __w:130fx object:contain h:15fx@m w:fit@m">
+                    </span>
+                </a>
+            
+                <a href="work/moxion" class="group rel mask _radius:4fx before before:p-t:128% w:440fx  before:p-t:140%@m w:250fx@m shrink:0@m">
+                    <img loading="lazy" decode="async" alt="null" width="880" height="1130" class="abs tl:0 fit object:cover" src="https://images.prismic.io/rejouice/2874f084-ec6c-4a19-b025-a55c1e6db929_Group+3692.jpg?auto=compress,format">
+
+                    <app-video-hover class="abs tl:0 fit block">
+                        <video loop="" muted="" playsinline="" class="tween:opacity,0.6s,easeOutCubic o:0 (.group:hover):o:1 abs tl:0 fit object:cover $$6$$" is-clone="" src="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"></video>
+                    </app-video-hover>
+                    
+                    <span class="pointer:none abs tl:0 fit flex items:end just:center p-b:69fx w:fit align-x:center p-b:20fx@m">
+                        <img loading="lazy" alt="" decode="async" src="https://rejouice.cdn.prismic.io/rejouice/a941061c-236f-4222-8fe2-2f61dbeeb48a_Logo.svg" width="100" height="18" class="h:30fx w:auto __w:130fx object:contain h:15fx@m w:fit@m">
+                    </span>
+                </a>
+            </div>
+        
+
+    </section></block-works-preview></app-block> <app-block name="$$0$$" type="block_intro" content="$$2$$" class="block" has-rendered=""><block-intro has-rendered=""> <div id="null" class="| block rel z:3 p-x:40fx $$1$$ $$2$$ p-x:10fx@m _bg:#FAF8F3 c:#0E0E0E p-y:85fx p-y:40fx@m">
+<video autoplay="" loop="" muted="" playsinline="" class="none abs t:-90% t:0%@m l:50% w:150% w:300%@m max-w:100000% transform shift-y:0% shift-y:-40%@m shift-x:-50% $$4$$ d:none" style="filter:blur(50px);" is-clone=""></video>
+
+<div class="flex items:end just:between">
+<h2 class="(&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$5$$">
+  <split-text><span>We operate on a simple philosophy:<br>Quality over quantity.</span></split-text>
+</h2>
+<h2 class="align-x:right@m w:120fx@m  (&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$7$$">
+  <split-text></split-text>
+</h2>
+</div>
+
+<scroll-object class="block rel w:fit $$9$$">
+<hr class="m-b:10fx block h:0.5px bg:#00000080 transform origin:0,0 scale-x:0 (.in-view):scale-x:1 (.in-view):tween:all,1.6s,easeOut border:none ">
+</scroll-object>
+
+<div class="wysiwyg_links fs:62fx fs:28fx@m lh:1.07 _indent:4em letter:-1px (&amp;/em):fs:0.5em (&amp;/a):deco:underline  (&amp;/a):deco-thickness:3px (&amp;/a):underline-offset:0.5em $$10$$">
+<split-text indent="true" css="
+                    sup { 
+                        font-size: 0.5em; 
+                    }
+                    a { 
+                        color: inherit;
+                        text-decoration: none;
+                        position: relative;
+                        text-shadow: -2px -2px 1px #FAF8F3,
+                                     2px -2px 1px #FAF8F3,
+                                     2px 2px 1px #FAF8F3,
+                                     -2px 2px 1px #FAF8F3;
+                    }
+                    a:before,
+                    a:after  {
+                        content: '';
+                        display: block;
+                        height: 0.05em; width: 100%;
+                        background: currentColor;
+                        position: absolute;
+                        top: 100%; left: 0;
+                        margin-top: -0.1em;
+                        will-change: transform;
+                        transform-origin: 100% 0;
+                        z-index: -1;
+                    }
+                    a:before {
+                        transform: scaleX(0) translateZ(0);
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:after {
+                        transform-origin: 0% 0;
+                        transform: scaleX(1) translateZ(0);
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:before,
+                    a.hover:before {
+                        transform: scaleX(1) translateZ(0);
+                        transform-origin: 0% 0;
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:after,
+                    a.hover:after {
+                        transform: scaleX(0) translateZ(0);
+                        transform-origin: 100% 0;
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    sup a:before,
+                    sup a:after  {
+                        display: none;
+                    }
+                }"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We partner with up to 5 clients each year. This allows intense focus on the transformation and launch of your brand by our very best team, which is the only team we have.&nbsp; We specialize in working with startups that are revolutionizing their industries.<br><br></span></split-text>
+</div>
+</div></block-intro></app-block> <app-block name="$$0$$" type="block_apply" content="$$2$$" class="block" has-rendered=""><block-apply has-rendered=""> <section @click="$$0$$" class="  rel z:1 bg:#FAF8F3 c:#0E0E0E p-x:40fx p-y:85fx m-b:85fx p-x:0@m  m-y:-25fx@m  p-y:110fx@m overflow:hidden@m">
+  <scroll-object class="rel w:560fx w:335fx@m before before:p-t:100% block m-x:auto c:#FFFCF1">
+    <video autoplay="" loop="" muted="" playsinline="" poster="assets/images/apply-poster.png" src="assets/videos/RJ-BALL-BLUE-ORANGE-scaled.webm" class="abs tl:50% w:fit w:180% max-w:100000% transform shift-x:-50% shift-y:-50% w:160%@m" is-clone=""></video>
+
+    <svg class="abs tl:0 fit transform rotate:-90deg" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.25" fill="none" class="o:0.3 $$2$$ $$3$$ $$4$$ (.in-view):tween:all,2.8s,easeOutSlow dasharray:308 dashoffset:616 (.in-view):dashoffset:431.20000000000005"></circle>
+      <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.25" fill="none" class="$$5$$ $$6$$ $$7$$ (.in-view):tween:all,2.8s,easeOutSlow dasharray:308 dashoffset:308 (.in-view):dashoffset:123.2"></circle>
+    </svg>
+
+    <svg class="abs tl:0 fit transform rotate:0 $$8$$ (.in-view):tween:all,2.8s,easeOutSlow (.in-view):rotate:216deg" viewBox="0 0 100 100">
+      <circle cx="50" cy="1" r="1" fill="#fff"></circle>
+    </svg>
+
+    <div class="abs tl:0 fit flex items:center just:center">
+      <div class="rel align-x:center">
+        <div class="(&amp;//*):fs:62fx (&amp;//*):fs:28fx@m (&amp;//*):lh:1.07 (&amp;//*):letter:-1px flex items:center just:center">
+          <roll-number number="$$9$$" from="9" number-class="fs:62fx fs:28fx@m" has-rendered="">
+    <div style="font-size:0;">
+                <span class="rel mask iblock">
+
+                    <span class="iblock o:0 $$0$$ fs:62fx fs:28fx@m">0</span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 0%) translateZ(0); opacity: 1;"><span>0</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 117.55705045849463%) translateZ(0); opacity: 1;"><span>9</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 190.2113032590307%) translateZ(0); opacity: 1;"><span>8</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 190.21130325903073%) translateZ(0); opacity: 0;"><span>7</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 117.55705045849464%) translateZ(0); opacity: 0;"><span>6</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, 2.4492935982947064e-14%) translateZ(0); opacity: 0;"><span>5</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, -117.5570504584946%) translateZ(0); opacity: 0;"><span>4</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, -190.2113032590307%) translateZ(0); opacity: 0;"><span>3</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, -190.21130325903073%) translateZ(0); opacity: 1;"><span>2</span></span>
+                            <span class="iblock abs tl:0 l:50% align:center $$0$$ fs:62fx fs:28fx@m" style="letter-spacing: normal; transform: translate(-50%, -117.55705045849467%) translateZ(0); opacity: 1;"><span>1</span></span></span></div></roll-number>
+          &nbsp;
+          <span><span>seats</span></span>
+        </div>
+        <div class="m-b:10fx@m fs:16fx lh:1.24 o:0 (.in-view):o:1 (.in-view):tween:all,1.3s,0.6s,easeOutSlow"><span><h2>available for 2024</h2></span></div>
+        <button class="bg:none d:none d:inline-block@m border:solid,1px,currentColor p:9fx,20fx radius:45fx@m">
+          Apply
+        </button>
+      </div>
+    </div>
+  </scroll-object>
+
+  <core-cursor-wrapper class="group block abs tl:0 fit __blend:difference d:none@m">
+    <core-cursor aria-hidden="true" class="abs tl:0fx w:98fx h:98fx pointer:none z:2 border:none abs tl:0 fs:0 | d:none@m">
+      <div class="
+                        abs tl:0 fit bg:#0E0E0E c:#FFFCF1 flex items:center just:center radius:120px 
+                        transform rotate:-45deg scale:0 o:0 (.group:hover):o:1 (.group:hover):rotate:0deg  (.group:hover):scale:1 tween:all,0.6s,easeOut 
+                    ">
+        <span class="fs:16fx transform c:#FFFCF1"><span>Take one!</span></span>
+      </div>
+    </core-cursor>
+  </core-cursor-wrapper>
+</section></block-apply></app-block> <app-block name="$$0$$" type="block_intro" content="$$2$$" class="block" has-rendered=""><block-intro has-rendered=""> <div id="null" class="| block rel z:3 p-x:40fx $$1$$ $$2$$ p-x:10fx@m _bg:#FAF8F3 c:#0E0E0E p-y:85fx p-y:40fx@m">
+<video autoplay="" loop="" muted="" playsinline="" class="none abs t:-90% t:0%@m l:50% w:150% w:300%@m max-w:100000% transform shift-y:0% shift-y:-40%@m shift-x:-50% $$4$$ d:none" style="filter:blur(50px);" is-clone=""></video>
+
+<div class="flex items:end just:between">
+<h2 class="(&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$5$$">
+  <split-text><span>Strategy &amp; emotion.<br>You need both.</span></split-text>
+</h2>
+<h2 class="align-x:right@m w:120fx@m  (&amp;/*):fs:24fx (&amp;/*)fs:14fx@m lh:1.14 m-b:0.7em $$7$$">
+  <split-text></split-text>
+</h2>
+</div>
+
+<scroll-object class="block rel w:fit $$9$$">
+<hr class="m-b:10fx block h:0.5px bg:#00000080 transform origin:0,0 scale-x:0 (.in-view):scale-x:1 (.in-view):tween:all,1.6s,easeOut border:none ">
+</scroll-object>
+
+<div class="wysiwyg_links fs:62fx fs:28fx@m lh:1.07 _indent:4em letter:-1px (&amp;/em):fs:0.5em (&amp;/a):deco:underline  (&amp;/a):deco-thickness:3px (&amp;/a):underline-offset:0.5em $$10$$">
+<split-text indent="true" css="
+                    sup { 
+                        font-size: 0.5em; 
+                    }
+                    a { 
+                        color: inherit;
+                        text-decoration: none;
+                        position: relative;
+                        text-shadow: -2px -2px 1px #FAF8F3,
+                                     2px -2px 1px #FAF8F3,
+                                     2px 2px 1px #FAF8F3,
+                                     -2px 2px 1px #FAF8F3;
+                    }
+                    a:before,
+                    a:after  {
+                        content: '';
+                        display: block;
+                        height: 0.05em; width: 100%;
+                        background: currentColor;
+                        position: absolute;
+                        top: 100%; left: 0;
+                        margin-top: -0.1em;
+                        will-change: transform;
+                        transform-origin: 100% 0;
+                        z-index: -1;
+                    }
+                    a:before {
+                        transform: scaleX(0) translateZ(0);
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:after {
+                        transform-origin: 0% 0;
+                        transform: scaleX(1) translateZ(0);
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:before,
+                    a.hover:before {
+                        transform: scaleX(1) translateZ(0);
+                        transform-origin: 0% 0;
+                        transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    a:hover:after,
+                    a.hover:after {
+                        transform: scaleX(0) translateZ(0);
+                        transform-origin: 100% 0;
+                        transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                    }
+                    sup a:before,
+                    sup a:after  {
+                        display: none;
+                    }
+                }"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data matters, yet it’s the emotion that drives buying decisions. We don’t believe in ‘one size fits all.’ We craft unique brand experiences that deeply resonate with your audience and boost your KPIs.<br><br></span></split-text>
+</div>
+</div></block-intro></app-block> <app-block name="$$0$$" type="block_drag" content="$$2$$" class="block" has-rendered=""><block-drag has-rendered="">
+    <section class="rel z:2 bg:#FAF8F3 c:#0E0E0E  $$0$$">
+
+        <div class="p-x:40fx p-x:10fx@m $$1$$">
+            <div class="m-b:-55fx p-b:15fx w:fit  b-b:solid,0.5px,#00000080 flex items:end just:between">
+                <h2 class="(&amp;//*):fs:131fx (&amp;//*):ff:alt (&amp;//*):fs:60fx@m (&amp;//*):lh:1 p-t:20fx letter:-1%"><span><h2>Get in touch.</h2></span></h2>
+                <a href="contact" class="fs:24fx fs:14fx@m nowrap"><span class="transform scale-x:-1 iblock m-r:0.5em">↵</span><span class="underlined-link">Contact</span></a>
+            </div>
+        </div>
+
+        <core-drag class="w:fit block mask" loop="" autoplay="" style="display: block;">
+            <div drag-wrapper="" class="w:fit">
+                <div drag-content="" class="flex items:end just:start space-x:20fx" style="overflow-x: visible; user-select: none; cursor: grab;">
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="799" height="864" src="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="1308" height="712" src="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="654" height="502" src="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="654" height="408" src="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="1599" height="1800" src="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="799" height="864" src="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="1308" height="712" src="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="654" height="502" src="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="654" height="408" src="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div>
+                            <div drag-layer="" drag-step="" class="iblock shrink:0">
+                                <div class="fs:0 w:327fx rel w:146fx@m">
+                                    <img loading="lazy" decode="async" style="user-select:none;-webkit-user-select:none;user-drag:none;-webkit-user-drag:none;" alt="null" class="w:fit  h:auto" width="1599" height="1800" src="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp" srcset="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=640 640w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=828 828w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=1200 1200w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=2048 2048w, https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&amp;fm=webp&amp;width=3840 3840w">
+                                </div>
+                            </div></div>
+            </div>
+        </core-drag>
+    </section></block-drag></app-block> <app-block name="$$0$$" type="block_push" content="$$2$$" class="block" has-rendered=""><block-push has-rendered="">
+
+    <section class="z:2 rel p-x:40fx p-x:20fx@m _before _before:p-t:60% mask $$1$$ $$2$$ $$3$$ p-y:235fx p-y:115fx@m bg:#FAF8F3 c:#0E0E0E">
+
+        <scroll-object class="block abs tl:0 fit" parallax="" ratio="-0.1">
+            <img loading="lazy" decode="async" alt="undefined" width="undefined" height="undefined" class="abs tl:0 fit object:cover transform scale:1.4 (.in-view):scale:1 (.in-view):tween:all,1.8s,easeOutSlow">
+            <video autoplay="" loop="" muted="" playsinline="" class="abs tl:0 fit object:cover $$9$$ d:none" is-clone=""></video>
+        </scroll-object>
+
+        <!-- <div class="abs tl:0 fit flex items:center just:center">
+            <gl-sphere class="block w:50% before before:p-t:100%"></gl-sphere>
+        </div> -->
+
+        <div class="_abs _tl:0 w:fit flex items:center just:center">
+            <div class="rel align-x:center __blend:difference ___c:#fff">
+                <div class="(&amp;/*):fs:16fx (&amp;/*):fs:14fx@m lh:1.24 m-b:0.75em space-x:10fx $$10$$">
+                    <span class="iblock align-y:middle"><span><p>We’re uniquely built</p></span></span>
+                    <span class="iblock align-y:middle transform rotate:-90deg">↵</span>
+                </div>
+                <div class="(&amp;//*):fs:62fx $$12$$ lh:1.07 letter:-0.93px deco:underline deco-thickness:3px underline-offset:0.5em (&amp;//*):fs:50fx@m">
+                    <split-text dark="false" css="
+                        sup { 
+                            font-size: 0.5em; 
+                        }
+                        a { 
+                            color: inherit;
+                            text-decoration: none;
+                            position: relative;
+                            text-shadow: -2px -2px 1px #FAF8F3,
+                                        2px -2px 1px #FAF8F3,
+                                        2px 2px 1px #FAF8F3,
+                                        -2px 2px 1px #FAF8F3;
+                        }
+                        .is-dark-theme a {
+                            text-shadow: -2px -2px 1px transparent,
+                                        2px -2px 1px transparent,
+                                        2px 2px 1px transparent,
+                                        -2px 2px 1px transparent;
+                        }
+                        a:before,
+                        a:after  {
+                            content: '';
+                            display: block;
+                            height: 0.05em; width: 100%;
+                            background: currentColor;
+                            position: absolute;
+                            top: 100%; left: 0;
+                            margin-top: -0.1em;
+                            will-change: transform;
+                            transform-origin: 100% 0;
+                            z-index: -1;
+                        }
+
+                        @media screen and (max-width:600px) {
+                            a:before,
+                            a:after  {
+                                height: 0.035em;
+                            }
+                        }
+
+                        a:before {
+                            transform: scaleX(0) translateZ(0);
+                            transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:after {
+                            transform-origin: 0% 0;
+                            transform: scaleX(1) translateZ(0);
+                            transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:hover:before,
+                        a.hover:before {
+                            transform: scaleX(1) translateZ(0);
+                            transform-origin: 0% 0;
+                            transition: transform 0.5s 0.1s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        a:hover:after,
+                        a.hover:after {
+                            transform: scaleX(0) translateZ(0);
+                            transform-origin: 100% 0;
+                            transition: transform 0.5s cubic-bezier(0.430, 0.195, 0.020, 1.000);
+                        }
+                        sup a:before,
+                        sup a:after  {
+                            display: none;
+                        }
+                        "><span><h2><a href="/about" target="_self" rel="noopener noreferrer">About us</a></h2></span></split-text>
+                </div>
+            </div>
+        </div>
+
+    </section></block-push></app-block></main>
+<!-- </gl-scene> -->
+
+<app-footer parallax="" offset="0.1" no-scale="" class="" style="display: block; transform: translateY(NaNpx) translateZ(0);" has-rendered="">
+    <footer class="rel bg:#0E0E0E c:#fff w:fit mask p-x:40fx p-y:51fx p-t:28fx@m  p-x:10fx@m c:#FFFCF1 p-b:10fx@m min-h:100vhfix min-h:0@m dir:col flex just:between">
+
+        <div top-part="" class="flex items:start just:between w:fit m-b:200fx d:block@m m-b:37fx@m">
+            <div class="space-y:25fx m-b:47fx@m">
+                <h3 class="fs:24fx fs:28fx@m">Relax. We've got you.</h3>
+                <a href="/contact" class="iblock tween:all,0.4s,easeOutCubic bg:none border:solid,1px,#FFFCF1 hover:bg:#FFFCF1 hover:c:#0E0E0E fs:16fx p:16fx,22fx radius:45fx fs:14fx@m radius:45fx@m p:10fx,18fx@m ">Take a seat</a>
+            </div>
+            <div class="(&amp;//ul//li):m-b:10fx@m  space-x:44fx fs:16fx lh:1.2 flex items:start just:end just:between@m">
+                <ul class="w:174fx">
+                    <li><a class="underlined-link" href="">Home</a></li>
+                    <li><a class="underlined-link" href="work">Work</a></li>
+                    <li><a class="underlined-link" href="about">About</a></li>
+                    <li><a class="underlined-link" href="services">Services &amp; Models</a></li>
+                    <li><a class="underlined-link" href="contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a class="underlined-link" target="_blank" href="https://twitter.com/rejouice_">X<span class=" transform rotate:-45deg iblock">→</span></a></li>
+                    <li><a class="underlined-link" target="_blank" href="https://www.instagram.com/rejouice_/">Instagram<span class=" transform rotate:-45deg iblock">→</span></a></li>
+                    <li><a class="underlined-link" target="_blank" href="https://www.linkedin.com/company/rejouice">LinkedIn<span class=" transform rotate:-45deg iblock">→</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            <!-- <h4 class="d:none d:block@m m-b:36fx@m">Offices</h4> -->
+            <div top-part="" class="flex items:end just:between w:fit m-b:69fx m-b:30fx@m items:start@m">
+                <div class="fs:16fx w:218fx@m space-y:20fx@m">
+                    <!-- <h4 class=" m-b:1em">Offices</h4> -->
+                    <ul class="">
+                        <li><span>San Diego—California<span></span></span></li>
+                        <li><span>Paris—France  </span></li>
+                    </ul>
+                    <p class="d:none d:block@m">
+                        <span>©2024</span> 
+                        <a href="legal" class="underlined-link">legal</a>
+                    </p>
+                </div>
+                <div class="space-x:44fx fs:16fx flex items:end just:end space-x:0@m">
+                    <ul class="w:174fx w:auto@m">
+                        <li>
+                            <span class="d:none d:block@m">Project inquiries:</span>
+                            <a class="underlined-link" href="mailto:biz@rejouice.com">biz@rejouice.com</a>
+                        </li>
+                    </ul>
+                    <p class="d:none@m">
+                        ©2023 <a href="legal" class="underlined-link">legal</a>
+                    </p>
+                </div>
+            </div>
+            <scroll-object class="block rel mask" aria-hidden="true">
+                <a href="/" class="block rel" aria-label="Back to Home">
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% (.in-view):tween:all,1.6s,easeOutSlow w:fit" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 0,212.431 H 35.0769 V 98.6631 c 0,-39.7789 20.3287,-61.2596 52.6154,-61.2596 H 109.217 V 3.1936 H 88.4895 C 45.8391,3.1936 0,30.2433 0,95.8786 Z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$0$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.05s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 116.161,108.608 c 0,73.193 47.035,109.392 102.441,109.392 52.615,0 87.692,-29.436 94.867,-71.204 h -35.874 c -6.776,24.265 -25.909,38.983 -58.196,38.983 -34.28,0 -63.377,-19.889 -66.566,-65.635 h 160.636 c 0.797,-5.967 1.196,-11.536 1.196,-17.503 C 314.665,51.7239 283.973,0.806864 217.406,0.011271 159.609,-0.784298 116.161,40.5858 116.161,108.608 Z M 153.63,89.9117 c 5.182,-40.9723 30.294,-57.6794 62.979,-57.6794 30.294,0 56.601,16.3093 60.986,57.6794 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$1$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.1s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 313.469,120.144 c 0.797,-5.967 1.196,-11.536 1.196,-17.503 -5.74609,1.08665 -7.04383,17.53827 -1.196,17.503 z m 8.539,94.674 h 20.727 c 42.651,0 88.49,-27.05 88.49,-92.685 V 5.58032 H 396.148 V 119.348 c 0,39.779 -20.329,61.26 -52.615,61.26 h -21.525 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$2$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.15000000000000002s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 660.864,108.608 c 0,-69.6133 -47.832,-108.596729 -102.839,-108.596729 -55.007,0 -102.839,39.381129 -102.839,108.596729 0,69.613 47.832,109.392 102.839,109.392 55.007,0 102.839,-40.177 102.839,-109.392 z m -169.405,0.398 c 0,-53.3042 30.692,-76.7737 66.566,-76.7737 35.874,0 66.567,23.4695 66.567,76.7737 0,51.314 -30.693,76.773 -66.567,76.773 -35.874,0 -66.566,-25.459 -66.566,-76.773 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$3$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.2s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 683.798,130.088 c 0,63.647 48.63,87.912 90.084,87.912 41.455,0 90.084,-24.265 90.084,-87.912 V 5.58032 H 828.889 V 122.928 c 0,46.144 -22.72,63.249 -55.007,63.249 -32.286,0 -55.007,-17.105 -55.007,-63.249 V 5.58032 h -35.077 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$4$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.25s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 891.959,212.431 h 35.077 V 5.58032 h -35.077 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$5$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.30000000000000004s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 946.888,108.608 c 0,69.613 47.034,109.392 102.842,109.392 51.81,0 92.87,-31.823 96.86,-89.105 h -35.48 c -5.18,38.188 -30.29,56.884 -62.18,56.884 -36.27,0 -65.77,-25.459 -65.77,-76.773 0,-53.3042 29.9,-76.7737 65.37,-76.7737 31.49,0 57.8,12.7292 62.58,50.917 h 35.48 C 1142.6,26.6632 1100.75,0.011271 1049.33,0.011271 994.321,0.011271 946.888,39.3924 946.888,108.608 Z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                    <svg aria-hidden="true" class="transform shift-y:-100% (.in-view):shift-y:0% $$6$$ w:fit abs tl:0 (.in-view):tween:all,1.6s,0.35000000000000003s,easeOutSlow" viewBox="0 0 1362 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 1163.5,108.608 c 0,73.193 47.03,109.392 102.44,109.392 52.61,0 87.69,-29.436 94.86,-71.204 h -35.87 c -6.78,24.265 -25.91,38.983 -58.2,38.983 -34.28,0 -63.37,-19.889 -66.56,-65.635 h 160.63 c 0.8,-5.967 1.2,-11.536 1.2,-17.503 C 1362,51.7239 1331.31,0.806864 1264.74,0.011271 1206.94,-0.784298 1163.5,40.5858 1163.5,108.608 Z m 37.46,-18.6963 c 5.19,-40.9723 30.3,-57.6794 62.98,-57.6794 30.3,0 56.61,16.3093 60.99,57.6794 z" fill="#fffcf1" id="path132"></path>
+                    </svg>
+                </a>
+            </scroll-object>
+
+        </div>
+
+    </footer></app-footer>
+<!-- <debug-grid></debug-grid> -->
+
+<div class="
+            | z:10000000000 bg:#000 fixed tl:0 w:fit h:100vhfix bg:#000 
+            | z:1000 flex items:center just:center d:flex   pointer:none
+            | tween:transform,1.1s,easeOutSlow mask transform
+            | (.is-player-opened):pointer:auto (.is-player-opened):shift-x:0 shift-x:-100% 
+            ">
+<!-- <app-video-player class="w:fit h:fit block" src="<?php echo ($video['url']); ?>"></app-video-player> -->
+
+<div class="abs tl:0 fit  transform tween:transform,1.1s,easeOutSlow (.is-player-opened):shift-x:0 shift-x:100% ">
+  <iframe aria-label="Main Reel Video" data-main-reel="" class="abs tl:0 w:fit h:fit" allow="autoplay; fullscreen; picture-in-picture" frameborder="0">
+  </iframe>
+  <button player-close-button="" class="abs radius:100% border:solid,1px,#fff w:48fx h:48fx w:35fx@m h:35fx@m z:2 abs tr:24fx bg:none border:none" aria-label="close player">
+    <span class="abs tl:50% bg:#fff h:1.5px w:20fx transform iblock rotate:45deg shift-x:-50% shift-y:-50%"></span>
+    <span class="abs tl:50% bg:#fff h:1.5px w:20fx transform iblock rotate:-45deg shift-x:-50% shift-y:-50%"></span>
+  </button>
+</div>
+</div>
+
+<div class="
+            | z:10000000000  fixed tl:0 w:fit h:100vhfix bg:#0E0E0E 
+            | z:1000 pointer:none
+            | tween:transform,1.1s,easeOutSlow mask transform
+            | (.is-apply-opened):pointer:auto (.is-apply-opened):shift-x:0 shift-x:-100% 
+            ">
+<div class="flex items:center just:center d:flex    abs tl:0 fit  transform tween:transform,1.1s,easeOutSlow (.is-apply-opened):shift-x:0 shift-x:100% ">
+  <button apply-close-button="" class="abs radius:100% border:solid,1px,#FFFCF1 w:48fx h:48fx w:35fx@m h:35fx@m z:2 abs tr:24fx bg:none border:none" aria-label="close apply overlay">
+    <span class="abs tl:50% bg:#FFFCF1 h:1.5px w:20fx transform iblock rotate:45deg shift-x:-50% shift-y:-50%"></span>
+    <span class="abs tl:50% bg:#FFFCF1 h:1.5px w:20fx transform iblock rotate:-45deg shift-x:-50% shift-y:-50%"></span>
+  </button>
+
+  <div class="rel align-x:center c:#FFFCF1 ">
+    <p class="fs:24fx m-b:1em fs:16fx@m">Don’t be shy. Say Hi! 👋</p>
+    <a href="mailto:biz@rejouice.com" class="__fs:28fx fs:130fx underlined-link-alt fs:35fx@m">
+      biz@rejouice.com
+    </a>
+  </div>
+</div>
+</div>
+
+<app-cookie-banner class="o:0 (&amp;.is-loader-ended):tween:opacity,0.6s,1.8s,easeOut (&amp;.is-loader-ended):o:1  space-x:30fx@m fs:13px@m flex just:between items:center z:1000 fixed b:13fx r:20fx l:20fx w:auto bg:#FF5F38 p:15fx,40fx fs:14fx c:#0E0E0E _w:450fx _w:300px@m fs:14px@m l:2.5%@m r:2.5%@m b:10fx@m p:15px,20px@m">
+<p class="__m-b:1em">
+  Our website use cookies. By continuing, we assume your permission to
+  deploy cookies as detailed in our <a href="legal">Privacy Policy</a>.
+</p>
+<div class="space-x:10px space-x:0@m space-y:4px@m">
+  <button btn-accept="" class="w:120fx@m bg:none border:solid,1px,#0E0E0E  bg:#0E0E0E c:#FF5F38 radius:6px p:9px,20px">
+    <span class="transform scale-x:-1 iblock"></span>Accept
+  </button>
+  <button btn-decline="" class="w:120fx@m bg:none  border:solid,1px,currentcolor radius:6px p:9px,20px">
+    Decline
+  </button>
+</div>
+</app-cookie-banner>
+
+<!-- <div class="d:none@m o:0.2 pointer:none transform z:99999 fixed tl:0 h:100vhfix w:fit flex items:start just:between p-x:40fx space-x:20fx">
+        $$2$$
+    </div>
+    <div class="d:none d:flex@m o:0.2 pointer:none transform z:99999 fixed tl:0 h:100vhfix w:fit flex items:start just:between p-x:10fx space-x:4fx">
+        $$3$$
+    </div>
+     -->
+</web-application>
+
+        
+    
+
+<script src="./index.js?v=1717445239951" type="text/javascript"></script></body></html>
